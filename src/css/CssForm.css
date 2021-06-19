@@ -1,0 +1,121 @@
+
+.css-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.css-form-container form {
+    height: 100%;
+    width: 92%;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 10px 10px 0 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.css-form-container table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 96%;  
+    margin: 0 auto;
+}
+
+.css-form-container td {
+    font-family: Calibri;
+    border: 1px solid lightgrey;
+}
+
+.css-form-container td.td_col1, 
+.css-form-container td.td_col2, 
+.css-form-container input[type=text] {
+    padding: 2px 5px;
+}
+
+.css-form-container td.td_col1 { width: 20%; }
+.css-form-container td.td_col2 { width: 40%; }
+.css-form-container td.td_col3 { width: 40%; }
+
+.css-form-container input[type=text] {
+    font-family: Calibri;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    caret-color: transparent;
+    box-sizing: border-box;
+}
+
+.css-form-container input[type=text]:focus {
+    border: 2px solid magenta;    
+}
+
+
+@media screen and (max-width: 1250px) {
+    .css-form-container td.td_col1, 
+    .css-form-container td.td_col2, 
+    .css-form-container input[type=text] {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .css-form-container td.td_col1, 
+    .css-form-container td.td_col2, 
+    .css-form-container input[type=text] {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .css-form-container td.td_col1, 
+    .css-form-container td.td_col2, 
+    .css-form-container input[type=text] {
+        font-size: 13px;
+    }
+
+    .css-form-container form {
+        padding: 10px 5px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .css-form-container td.td_col1, 
+    .css-form-container td.td_col2, 
+    .css-form-container input[type=text] {
+        padding: 2px 4px;
+        font-size: 12px;
+    }
+
+    .css-form-container form {
+        padding: 4px 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .css-form-container td.td_col1, 
+    .css-form-container td.td_col2, 
+    .css-form-container input[type=text] {
+        padding: 1px 4px;
+        font-size: 12px;
+    }
+
+    .css-form-container form {
+        padding: 1px 5px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .css-form-container td.td_col1, 
+    .css-form-container td.td_col2, 
+    .css-form-container input[type=text] {
+        padding: 1px 3px;
+    }
+
+    .css-form-container form {
+        padding: 0px 5px;
+    }
+}

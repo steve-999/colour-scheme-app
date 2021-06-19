@@ -1,0 +1,24 @@
+
+.app-header {
+    height: 65px;
+    width: 100%;
+    background-color: #333;     
+    color: white;
+}
+
+.app-header header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+
+.app-header h3 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+

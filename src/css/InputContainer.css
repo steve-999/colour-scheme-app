@@ -1,0 +1,140 @@
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.input-container div input {
+    display: block;
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px 0px;
+    font-family: Calibri;
+    font-size: 16px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.input-container div input[type=range]:focus-visible,
+.input-container div input[type=range]:focus {
+    outline: 2px solid #ffb3ff;
+}
+
+.input-container h3 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px auto;
+}
+
+.input-container.logo_text-container div input[type=text] {
+    width: 250px;
+}
+
+/*****************************************************************/
+
+.input-container.padding-margin-container div.top-container input {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.input-container.padding-margin-container div.top-container h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Lato;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/****************************************************************/
+
+.input-container div.bottom-container {
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid gainsboro;
+    margin: 30px auto;
+    padding: 10px 35px;
+    border-radius: 8px;
+    background: #eee;
+}
+
+.input-container div.bottom-container-invisible {
+    display: none;
+    height: 50px;
+    margin: 30px auto;
+}
+
+/****************************************************************/
+
+.input-container.text-container div.top-container input {
+    padding: 7px 10px;
+    margin: 40px auto 50px auto;
+}
+
+.input-container.text-container div.top-container input:focus {
+    outline: 2px solid #ffb3ff;
+}
+
+
+/******************************************************************/
+
+@media screen and (max-width: 950px) {
+    .input-container div input,
+    .input-container.text-container div.top-container input,
+    .input-container.padding-margin-container div.top-container input
+    {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .input-container h3 {
+        font-size: 20px;
+    }
+
+    .input-container div.bottom-container {
+        font-size: 16px;
+    }
+
+    .input-container.padding-margin-container div.top-container h4 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 805px) {
+
+    .input-container h3 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .input-container h3 {
+        font-size: 15px;
+    }
+
+    .input-container.padding-margin-container div.top-container h4 {
+        font-size: 14px;
+    }
+
+    .input-container div.bottom-container {
+        font-size: 13px;
+    }
+
+    .input-container div input,
+    .input-container.text-container div.top-container input,
+    .input-container.padding-margin-container div.top-container input
+    {
+        width: 85%;
+        padding: 0px;
+    }
+}

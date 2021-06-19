@@ -1,0 +1,53 @@
+
+#container {
+    height: 100%;
+    width: 90%;
+    margin: 0px auto 20px auto;
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: nunito, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    color: white;
+    margin: 0 10px;
+}
+
+#navbar {
+    background-color: navy;
+    height: 60px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#article {
+   padding: 10px;
+}
+
+
+@media screen and (max-width: 590px) {
+    #container {
+        margin: 0 0 20px 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .display-container {
+        width: 100%;
+    }
+
+    #navbar {
+        width: 100%;
+        height: 65px;
+    }
+}
