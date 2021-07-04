@@ -15,7 +15,7 @@ export const initState = {
     selectedFont: undefined,
     cssProperties: {
         navbar_backgroundColor: 'DarkViolet',
-        logo_text: 'Colours App',
+        logo_text: 'Logo',
         logo_fontFamily: 'Raleway',
         logo_fontSize: '26px',
         logo_fontWeight: '800',
